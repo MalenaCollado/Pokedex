@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Toona";
+    src: url("FONTS/FONT_Toona.otf");
+}
+
+@font-face {
+    font-family: "HoneyBear";
+    src: url("FONTS/FONT_HoneyBear.ttf");
+}
+
+@font-face {
+    font-family: "Funhouse";
+    src: url("FONTS/FONT_Funhouse.ttf");
+}
+
+@font-face {
+    font-family: "ComicGecko";
+    src: url("FONTS/FONT_ComicGeko.otf");
+}
+
+@font-face {
+    font-family: "Blomberg";
+    src: url("FONTS/FONT_Blomerg.otf");
+}
+
+@font-face {
+    font-family: "PokemonGB";
+    src: url("FONTS/FONT_PokemonGB.ttf");
+}
+/* END FONTS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    background-color: #df1e26;
+    width: 100%;
+    height: 5rem;
+}
+
+nav ul {
+    float: left;
+    display: flex;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav h3 {
+    padding: 1rem 2rem;
+    float: left;
+    align-items: center;
+    color: #ffffff;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 2rem;
+    line-height: 5rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #df1e26;
+    border: 1px solid #5e0a0b;
+    font-family: "PokemonGB";
+}
+
+nav ul li:hover ul {
+    display: block;
+    font-family: "PokemonGB";
+}
+
+nav ul li ul li {
+    width: 100%;
+}
+
+nav ul li ul li a {
+    padding: 1rem 2rem;
+    line-height: unset;
+    white-space: nowrap;
+}
+
+nav ul li ul li a:hover {
+    background-color: #941a1c;
+}
